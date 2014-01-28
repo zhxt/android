@@ -21,6 +21,12 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- Include the Mer-hybris repos for packaging and images -->
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
+  <!-- <project path="hybris/rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/> -->
+
+  <!-- Subset of core CM repos for hybris -->
+
   <project path="build" name="mer-hybris/android_build" revision="hybris-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -58,6 +64,10 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport"/>
   <project path="external/protobuf" name="mer-hybris/android_external_protobuf" revision="hybris-10.1"/>
   <project path="external/liblzf" name="mer-hybris/android_external_liblzf" revision="hybris-10.1"/>
+<!-- added by lbt for hybris headers for sync -->
+  <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
+<!-- added by lbt for hybris headers for nfc -->
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <!-- added while trying to build bootanimation --> 
   <project path="external/skia" name="CyanogenMod/android_external_skia"/>
   <project path="frameworks/base" name="mer-hybris/android_frameworks_base" revision="hybris-10.1"/> <!-- CONTAINS BOOTANIMATION AND SERVICEMANAGER-->
