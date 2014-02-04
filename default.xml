@@ -23,7 +23,7 @@
 
   <!-- Include the Mer-hybris repos for packaging and images -->
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
-  <!-- <project path="hybris/rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/> -->
+  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
 
   <!-- Subset of core CM repos for hybris -->
 
@@ -49,7 +49,7 @@
   <project path="device/common" name="CyanogenMod/android_device_common"/>
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery"/>
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware"/>
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox"/>
+  <project path="external/busybox" name="mer-hybris/android_external_busybox"/>
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt"/> 
   <!--added while trying to build libc -->
   <project path="external/clang" name="CyanogenMod/android_external_clang"/>
@@ -79,9 +79,6 @@
   <project path="external/giflib" name="CyanogenMod/android_external_giflib"/>
   <project path="external/webp" name="CyanogenMod/android_external_webp"/>
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz"/>
-
-
-
 
   <!-- i9305 SPECIFIC -->
   <project path="device/samsung/i9305" name="CyanogenMod/android_device_samsung_i9305" />
