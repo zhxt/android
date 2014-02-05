@@ -23,7 +23,9 @@
 
   <!-- Include the Mer-hybris repos for packaging and images -->
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
+
+  <!-- Currently disabled due to repository being unavailable -->
+  <!-- <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/> -->
 
   <!-- Subset of core CM repos for hybris -->
 
@@ -85,7 +87,7 @@
   <project path="kernel/samsung/smdk4412" name="mer-hybris/android_kernel_samsung_smdk4412" revision="hybris-10.1" />
   <project path="device/samsung/smdk4412-common" name="mer-hybris/android_device_samsung_smdk4412-common" revision="hybris-10.1" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="hardware/samsung" name="mer-hybris/android_hardware_samsung" revision="hybris-10.1" />
 
   <!-- KERNELS AND DEVICES -->
   <!-- <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
