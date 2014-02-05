@@ -51,7 +51,7 @@
   <project path="device/common" name="CyanogenMod/android_device_common"/>
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery"/>
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware"/>
-  <project path="external/busybox" name="mer-hybris/android_external_busybox"/>
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-10.1"/>
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt"/> 
   <!--added while trying to build libc -->
   <project path="external/clang" name="CyanogenMod/android_external_clang"/>
