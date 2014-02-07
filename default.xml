@@ -83,6 +83,7 @@
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz"/>
 
   <!-- KERNELS AND DEVICES -->
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.2" />
   <!-- i9305 SPECIFIC -->
   <project path="device/samsung/i9305" name="CyanogenMod/android_device_samsung_i9305" />
   <project path="kernel/samsung/smdk4412" name="mer-hybris/android_kernel_samsung_smdk4412" revision="hybris-10.1" />
