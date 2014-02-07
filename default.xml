@@ -82,6 +82,7 @@
   <project path="external/webp" name="CyanogenMod/android_external_webp"/>
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz"/>
 
+  <!-- KERNELS AND DEVICES -->
   <!-- i9305 SPECIFIC -->
   <project path="device/samsung/i9305" name="CyanogenMod/android_device_samsung_i9305" />
   <project path="kernel/samsung/smdk4412" name="mer-hybris/android_kernel_samsung_smdk4412" revision="hybris-10.1" />
@@ -89,7 +90,6 @@
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" />
   <project path="hardware/samsung" name="mer-hybris/android_hardware_samsung" revision="hybris-10.1" />
 
-  <!-- KERNELS AND DEVICES -->
   <!-- <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
@@ -99,6 +99,13 @@
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" /> -->
   <project path="device/lge/mako" name="mer-hybris/android_device_lge_mako" revision="hybris-10.1"/>
   <project path="kernel/lge/mako" name="mer-hybris/lge-kernel-mako" revision="hybris-10.1"/>
+
+  <!-- Sony Xperia Z SPECIFIC -->
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
+  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
+  <project path="device/sony/yuga" name="CyanogenMod/android_device_sony_yuga" />
+  <project path="kernel/sony/yuga" name="mer-hybris/android_kernel_sony_apq8064" revision="hybris-10.1" />
 
   <!-- I checked these repos, they're actually empty, but maybe one day we won't have to build clang -->
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
