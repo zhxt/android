@@ -71,6 +71,8 @@
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
 <!-- added by lbt for hybris headers for nfc -->
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
+<!-- added by lbt for hybris headers for audio -->
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <!-- added while trying to build bootanimation --> 
   <project path="external/skia" name="CyanogenMod/android_external_skia"/>
   <project path="frameworks/base" name="mer-hybris/android_frameworks_base" revision="hybris-10.1"/> <!-- CONTAINS BOOTANIMATION AND SERVICEMANAGER-->
@@ -91,7 +93,7 @@
   <!-- KERNELS AND DEVICES -->
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.2" />
   <!-- i9305 SPECIFIC -->
-  <project path="device/samsung/i9305" name="mer-hybris/android_device_samsung_i9305" revision="cm-10.1" />
+  <project path="device/samsung/i9305" name="mer-hybris/android_device_samsung_i9305" revision="hybris-10.1" />
   <project path="kernel/samsung/smdk4412" name="mer-hybris/android_kernel_samsung_smdk4412" revision="hybris-10.1" />
   <project path="device/samsung/smdk4412-common" name="mer-hybris/android_device_samsung_smdk4412-common" revision="hybris-10.1" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" />
