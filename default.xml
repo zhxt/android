@@ -109,6 +109,7 @@
 
   <!-- Google Nexus 7 (2012) -->
   <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
+  <project path="device/asus/tilapia" name="CyanogenMod/android_device_asus_tilapia" />
   <project path="kernel/asus/grouper" name="mer-hybris/android_kernel_asus_grouper" />
 
   <!-- Sony Xperia Z SPECIFIC -->
