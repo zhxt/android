@@ -21,6 +21,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="siteshwar/hybris-boot" name="mer-hybris/hybris-boot" revision="hammerhead"/>
+  <project path="rpm" name="siteshwar/droid-hal-device" revision="hybris-11.0"/>
+
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
