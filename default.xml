@@ -452,4 +452,8 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+
+  <project name="siteshwar/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="hybris-11.0" />
+  <project name="siteshwar/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="hybris-11.0" />
+
 </manifest>
