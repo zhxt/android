@@ -21,8 +21,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hammerhead"/>
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-11.0"/>
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
+  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
 
   <project path="android" name="CyanogenMod/android" />
 
