@@ -26,6 +26,7 @@
 
   <!-- Currently disabled due to repository being unavailable -->
   <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
+  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
 
   <!-- Subset of core CM repos for hybris -->
 
