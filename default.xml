@@ -92,7 +92,7 @@
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
 
   <!-- KERNELS AND DEVICES -->
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.2" />
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.3" />
   <!-- i9305 SPECIFIC -->
   <project path="device/samsung/i9305" name="mer-hybris/android_device_samsung_i9305" revision="hybris-10.1" />
   <project path="kernel/samsung/smdk4412" name="mer-hybris/android_kernel_samsung_smdk4412" revision="hybris-10.1" />
