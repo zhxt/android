@@ -232,7 +232,7 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="745eb024d324bb8df199303024f161d4683dad85" upstream="refs/heads/cm-11.0" groups="pdk" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" revision="a59267872085b4da05f1ea3488bbd6a0eb7a5991" upstream="refs/heads/cm-11.0" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" revision="0956427aa995561acb4471764158ae057a36dad5" upstream="refs/heads/cm-11.0" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" revision="24d101ab999b779ca11a5d53f54b219c92407136" upstream="refs/heads/cm-11.0" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817" upstream="refs/heads/cm-11.0" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c" upstream="refs/heads/cm-11.0" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="99e91a76fd74bad10266623d67cdb98d011f709e" upstream="refs/tags/android-4.4.2_r2" />
