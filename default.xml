@@ -19,6 +19,8 @@
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" remote="github" revision="hybris-10.1" />
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="github" revision="master" />
 
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" remote="github" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" remote="github" revision="hybris-aosp-5.1.0_r5" />
