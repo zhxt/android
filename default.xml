@@ -7,26 +7,19 @@
            revision="refs/tags/android-5.1.1_r3" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch=".." />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="mlehtima/android_build" groups="pdk,tradefed" revision="hybris-12.1" >
+  <project path="build" name="mer-hybris/android_build" groups="pdk,tradefed" revision="hybris-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="hybris-10.1"/>
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="master"/>
-  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="master"/>
-  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.3" />
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
 
   <project path="android" name="CyanogenMod/android" />
@@ -35,7 +28,7 @@
 <!--
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
 -->
-  <project path="bionic" name="mlehtima/android_bionic" groups="pdk" revision="hybris-12.1" />
+  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" revision="hybris-12.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
 <!--
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
@@ -97,7 +90,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
 -->
-  <project path="external/busybox" name="mlehtima/android_external_busybox" revision="hybris-12.1" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-aosp-5.1.0_r5" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
 <!--
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
@@ -388,7 +381,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
 -->
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="mlehtima/android_frameworks_base" revision="hybris-12.1" />
+  <project path="frameworks/base" name="mer-hybris/android_frameworks_base" revision="hybris-12.1" />
 <!--
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -399,7 +392,7 @@
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
 -->
-  <project path="frameworks/native" name="mlehtima/android_frameworks_native" groups="pdk" revision="hybris-12.1" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" revision="hybris-12.1" />
 <!--
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
@@ -453,7 +446,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
 -->
-  <project path="hardware/libhardware" name="mlehtima/android_hardware_libhardware" groups="pdk" revision="hybris-12.1" />
+  <project path="hardware/libhardware" name="mer-hybris/android_hardware_libhardware" groups="pdk" revision="hybris-12.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
@@ -561,7 +554,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="mlehtima/android_system_core" groups="pdk" revision="hybris-12.1" />
+  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk" revision="hybris-12.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
 <!--
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
@@ -593,3 +586,4 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 -->
 </manifest>
+
