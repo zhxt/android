@@ -24,11 +24,6 @@
   <!-- Include the Mer-hybris repos for packaging and images -->
   <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
 
-  <!-- Currently disabled due to repository being unavailable -->
-  <project path="rpm" name="mer-hybris/droid-hal-device" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
-  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
-
 
   <!-- Subset of core CM repos for hybris -->
 
